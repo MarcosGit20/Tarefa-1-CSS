@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    padding: 15px 0; /*Espaçamento interno*/
+    background-color: #0f2145;
+    color: #fbfdff;
+}
+
+.tela-principal {
+
+    background: url(./wp11012453.jpg);
+    background-position: center;
+    background-size: cover; 
+    
+    padding: 350px
+}
+
+header nav li {
+    display: inline; 
+    margin-left: 16px;
+    font-size: 17px;
+
+}
+
+header nav li a {
+    color: #fbfdff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px; /*Largura máxima*/
+    width: 100%; /*Largura*/
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex; /*Deixa os elementos lado a lado*/
+    align-items: center;
+    justify-content: space-between; /*Jogou os elemntos para direita*/
+}
+
+.links-redes li img{
+    height: 24px; /*Determina altura das imagens*/
+}
+
+li {
+    display: inline; /*Deixa os elementos lado a lado*/
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-left: 300px;
+    font-size: 50px;
+}
+
+ .editor {
+    background-color: transparent; /* BACKGROUND QUE DEIXA TRANSPARENTE */
+    backdrop-filter: blur(1px); /* BLUR ONDE AJUSTAMOS A TRANSPARENCIA */
+    color: #fbfdff;
+}
+
+section {
+    color: #0f2145;
+}
+
+section p {
+    margin:30px;
+}
+
+.img-principal {
+    margin-right: 32px;
+}
+
+.links-redes li img {
+    height: 24px;
+}
+
+.links-redes li {
+    display: inline;
+    margin-right: 8px;
+    }
+
+.links-redes li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none; /*remove a opção do cliente manipular o textarea*/
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #0f2145;
+    color: #fbfdff;
+    padding: 16px 0;
+}
+
+
+
+.btn {
+    margin-left: 500px;
+    margin-bottom: 15px;
+    color: #182c61;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+   cursor: pointer;
+   font-weight: 500;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;  /*Efeitos no Button*/
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.contact-text {
+    margin-left: 40px;
+}
+
+#speak {
+    margin-left: 100px;
+}
